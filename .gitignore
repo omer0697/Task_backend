@@ -1,0 +1,62 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environment
+venv/
+.env
+.venv/
+ENV/
+env.bak/
+env/
+
+# Environment variables
+*.env
+
+# Flask cache
+instance/
+
+# SQLAlchemy database files
+*.db
+*.sqlite3
+
+# Flask logs
+flask.log
+
+# Migrations
+migrations/
+
+# Pytest cache
+.pytest_cache/
+
+# Coverage reports
+htmlcov/
+.coverage
+.coverage.*
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IDE specific
+.vscode/
+.idea/
+
+# macOS specific
+.DS_Store
+
+# Windows specific
+Thumbs.db
+ehthumbs.db
+
+# Logs
+*.log
+
+# Build artifacts
+*.egg-info/
+dist/
+build/
+
+# Additional directories or files
+*~
+*.swp
